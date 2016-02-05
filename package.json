@@ -1,0 +1,33 @@
+{
+  "name": "inpost-pl",
+  "version": "1.0.0",
+  "description": "InPost.pl API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawerda/node-inpost-pl.git"
+  },
+  "keywords": [
+    "inpost",
+    "paczkomaty",
+    "paczkomaty.pl",
+    "pl",
+    "inpost.pl",
+    "API"
+  ],
+  "author": "pawerda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawerda/node-inpost-pl/issues"
+  },
+  "homepage": "https://github.com/pawerda/node-inpost-pl#readme",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "jsontoxml": "0.0.11",
+    "request": "^2.69.0",
+    "xml2json": "^0.9.0"
+  }
+}
